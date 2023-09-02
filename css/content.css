@@ -55,6 +55,20 @@ main p {
 }
 
 
+.link {
+    text-decoration: none;
+}
+
+.link-extra {
+    background-color: rgba(29, 219, 29, 0.664);
+    padding: 4px;
+}
+
+.link-extra::after {
+    content: ' LI';
+
+}
+
 @media (max-width:747px) {
     #img-centro{
         content: '<img src="../imagens/dan-droids-pq.png">';
