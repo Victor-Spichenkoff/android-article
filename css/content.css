@@ -1,0 +1,67 @@
+main {
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+}
+
+main h1, main h2{
+    display: inline-block;
+    font-family: Android, serif;
+    padding-left: 4px 3px;
+    margin-left: 10px;
+    color: var(--green1);
+}
+
+main h1 {
+    font-size: 30px;
+}
+
+main h2 {
+    font-size: 17px;
+    padding: 3px;
+    border-radius: 2px;
+    display: block;
+    background-image: linear-gradient(to right, rgba(25, 206, 25, 0.795) 10%, white 90%);
+    margin-top: 20px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#img-centro{
+    display: flex;
+    justify-content: center ;
+}
+
+
+#android-video {
+    background-color: var(--green2);
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#android-video > iframe{
+    width: 92%;
+    height: 92%;
+}
+
+
+@media (max-width:747px) {
+    #img-centro{
+        content: '<img src="../imagens/dan-droids-pq.png">';
+    }    
+
+    #android-video {
+        background-color: var(--green2);
+    }
+} 
+
