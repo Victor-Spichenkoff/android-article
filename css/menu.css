@@ -19,13 +19,14 @@
 body  {
     margin: 0px;
     background-color: beige;
+    background-color: #c5ebd6;
 }
 
 
 aside {
     position: relative;
     margin: 0px;
-    height: 200px;
+    height: 150px;
     width: 100vw;
     background-image: linear-gradient(to bottom,  #46ac3b, #1d3b1a);
 }
