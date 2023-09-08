@@ -17,27 +17,54 @@ main h1, main h2{
 }
 
 main h1 {
-    font-size: 30px;
+    font-size: 1.8em;
+    color: var(--green5);
+    font-weight: normal;
 }
 
 main h2 {
-    font-size: 17px;
-    padding: 3px;
+    font-size: 1.3em;
+    /* font-weight: normal; */
+    padding: 3px 0 3px 5px;
     border-radius: 2px;
     display: block;
-    background-image: linear-gradient(to right, rgba(25, 206, 25, 0.795) 10%, white 90%);
-    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--green1), transparent);
+    color: var(--green4);
+    margin-top: 30px;
+    margin-bottom: 17px;
 }
 
 main p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em !important;
     text-align: justify;
     text-indent: 30px;
     padding: 0 10px;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 2em;
+
+    margin: 15px 0;
+
 }
 
+main strong {
+    color: var(--green4);
+    font-weight: bolder;
+
+    border-radius: 2px;
+}
+
+main a {
+    color: var(--green5);
+    background-color: var(--green1);
+    padding: 2px 4px;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--green4);
+}
 
 main img {
     width: 100%;
@@ -50,19 +77,20 @@ main img {
 }
 
 #android-homem {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 
 
 #android-video {
-    background-color: var(--green2);
+    background-color: var(--green5);
     width: 100%;
     aspect-ratio: 16/9;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.356);
 }
 
 #android-video > iframe{
@@ -96,6 +124,11 @@ main img {
 
     #android-video {
         background-color: var(--green2);
+    }
+
+    #android-video {
+        width: 99%;
+        height: 99%;
     }
 } 
 
